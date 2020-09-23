@@ -15,7 +15,8 @@
         <p>名前：テスト太郎</p>
         <p
           v-for="(key, index) in Object.keys(subjects)"
-          :key="index">
+          :key="index"
+        >
             {{ subjects[key]['ja'] }}
           <input
             type="number"
